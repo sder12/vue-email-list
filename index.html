@@ -24,7 +24,7 @@
         <div class="wrapper">
             <h1 class="pb-3">EMAIL LIST</h1>
 
-            <ul>
+            <ul v-if="arrayEmails.length == 10">
                 <li v-for="email in arrayEmails">
                     {{ email }}
                 </li>
